@@ -1,0 +1,9 @@
+{
+  "name": "blog_vuepress",
+  "version": "1.0.0",
+  "scripts": {
+    "blog:dev": "vuepress dev blog",
+    "blog:build": "vuepress build blog"
+  },
+  "license": "MIT"
+}
