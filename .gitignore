@@ -4,6 +4,7 @@
 *.log
 blog/.vuepress/dist/
 node_modules
+.idea
 
 ### macOS ###
 # General
