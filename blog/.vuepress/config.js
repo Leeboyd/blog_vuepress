@@ -4,6 +4,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/assets/img/icon.png' }]
   ],
+  base: "/blog_vuepress/",
   port: 9898,
   markdown: {
     lineNumbers: true

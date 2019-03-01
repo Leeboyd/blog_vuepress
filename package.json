@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "blog:dev": "vuepress dev blog",
-    "blog:build": "vuepress build blog"
+    "blog:build": "vuepress build blog",
+    "blog:deploy": "/bin/bash deploy.sh",
+    "blog:backup": "/bin/bash backup.sh"
   },
   "license": "MIT"
 }
