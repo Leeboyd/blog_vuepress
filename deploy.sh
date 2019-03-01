@@ -4,7 +4,7 @@
 set -e
 
 # build
-yarn blog:build
+# yarn blog:build
 
 # navigate into the build output directory
 cd blog/.vuepress/dist
