@@ -1,6 +1,6 @@
 module.exports = {
   title: 'DEV.Boy',
-  description: 'Just playing around',
+  description: 'Think twice, code once.',
   head: [
     ['link', { rel: 'icon', href: '/assets/img/icon.png' }]
   ],
@@ -11,8 +11,8 @@ module.exports = {
   themeConfig: {
     logo: '/assets/img/logo.png',
     nav: [
-      { text: '文章列表', link: '/' },
-      { text: 'DevOps', link: '/DevOps/' },
+      { text: 'Blog', link: '/articles/' },
+      { text: 'CV', link: '/CV/' },
       { 
         text: '關於我', 
         items: [
@@ -21,22 +21,16 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/DevOps/': [
-        '',     /* /DevOps/ */
-        ['CH1', 'CH1'],  /* /DevOps/CH1.html */
-        ['CH2', 'CH2'],   /* /DevOps/CH2.html */
-      ],
-      '/Container/': [
-        '',
-        ['CH2', '卡為標題2'],  /* /DevOps/CH1.html */
-        ['CH3', '卡為標題3'],   /* /DevOps/CH2.html */
+      '/articles/': [
+        '',     /* /articles/ */
+        ['CH1', 'CH1'],  /* /articles/CH1.html */
+        ['CH2', 'CH2'],   /* /articles/CH2.html */
       ],
       '/': [
-        '',
-        ['/DevOps/', 'DevOps'],
-        ['/Container/', '卡位'],
-        ['contact', '聯絡我'],
-        ['about', '關於我']
+        // '',
+        // ['/articles/', '文章列表'],
+        // ['contact', '聯絡我'],
+        // ['about', '關於我']
       ] 
     }
   },
