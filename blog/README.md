@@ -10,5 +10,5 @@ features:
   details: Taiwan and Chicago, IL
 - title: Joined
   details: Jan 1, 2019
-footer: MIT Licensed | Copyright © 2018-present LeeBoy
+footer: MIT Licensed | Copyright © 2019-present LeeBoy
 ---
