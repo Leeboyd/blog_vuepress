@@ -21,11 +21,11 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/articles/': [
-        '',     /* /articles/ */
-        ['CH1', 'CH1'],  /* /articles/CH1.html */
-        ['CH2', 'CH2'],   /* /articles/CH2.html */
-      ],
+      // '/articles/': [
+      //   '',     /* /articles/ */
+      //   ['2019-12-08', '哦哦哦ㄛ'],  /* /articles/CH1.html */
+      //   ['CH2', 'CH2'],   /* /articles/CH2.html */
+      // ],
       '/': [
         // '',
         // ['/articles/', '文章列表'],
