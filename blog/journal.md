@@ -1,7 +1,12 @@
-Daily Journal
-===
+---
+sidebar: auto
+---
+
+# Daily Journal
 
 > Delivering good software today is often better than perfect software tomorrow.
+
+## 2019
 
 ## March 4 🌧
 
@@ -66,8 +71,6 @@ PM 會規劃需求，開一份文件，包含有哪些 `使用者`、`頁面` �
 後端看「功能模組」列 user story，規劃預期的 response 和 狀態，接著給前端確認
 前端確認ＯＫ，寫 api doc, 開 github issue, 寫 QA 後端驗收表
 
-
-
-# 2018
+## 2018
 
 

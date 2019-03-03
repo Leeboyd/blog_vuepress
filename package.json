@@ -7,5 +7,13 @@
     "blog:deploy": "/bin/bash deploy.sh",
     "blog:backup": "/bin/bash backup.sh"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "markdown-it": "^8.4.2",
+    "markdown-it-checkbox": "^1.1.0",
+    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-mark": "^2.0.0",
+    "markdown-it-task-checkbox": "^1.0.6"
+  }
 }
