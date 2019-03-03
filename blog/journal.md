@@ -8,7 +8,7 @@ sidebar: auto
 
 ## 2019
 
-## March 4 🌧
+## March 3 🌧
 
 #### 昨日預計事項
 - [ ] iia 測試碼 1.2
@@ -23,11 +23,18 @@ sidebar: auto
 #### 今日預計事項
 
 1. Blog 開發者日記
+2. dockerize 開發專案
 
 #### 日誌
 
 1. Blog 開發者日記
+
+    為了方便使用 Markdown 語法和搜尋，將原本 Google doc 上的 [Dev_logs](https://docs.google.com/document/d/1kPXVrxFQvm0zyuXSHv1F6Noc5iC-Tb60hguVmpASCqw/edit#) 搬到 [這邊](/journal.md)
   
+2. dockerize 開發專案
+
+    [筆記連結](/articles/2019-03-03.md)
+
 
 ## February 26
 

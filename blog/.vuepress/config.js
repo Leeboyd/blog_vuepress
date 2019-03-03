@@ -10,17 +10,15 @@ module.exports = {
     lineNumbers: true,
     config: md => {
       // md.use(require('markdown-it-abbr')),
-      // md.use(require('markdown-it-attrs')),
       md.use(require('markdown-it-checkbox')),
       // md.use(require('markdown-it-fontawesome')),
       md.use(require('markdown-it-footnote')),
       // md.use(require('markdown-it-katex')),
-      // md.use(require('markdown-it-kbd')),
+      md.use(require('markdown-it-underline')),
       // md.use(require('markdown-it-imsize')),
       md.use(require('markdown-it-mark')),
       // md.use(require('markdown-it-plantuml')),
-      // md.use(require('markdown-it-sup')),
-      // md.use(require('markdown-it-sub')),
+      md.use(require('markdown-it')),
       md.use(require('markdown-it-task-checkbox'))
     }
   },
@@ -37,7 +35,6 @@ module.exports = {
 //        ]
 //      }
     ],
-
     sidebarDepth: 2,
     displayAllHeaders: true,
     sidebar: {
@@ -46,14 +43,18 @@ module.exports = {
       //   ['/journal#_2018', '2018']
       // ],
 
-      '/articles/2018-12-08': [
-        ['/articles/2018-12-08', 'Table of Content'],
+      '/articles/2019-03-03': [
+        ['/articles/2019-03-03', 'Table of Content'],
       ],
+
 
       '/articles/2019-01-20': [
         ['/articles/2019-01-20', 'Table of Content'],
       ],
 
+      '/articles/2018-12-08': [
+        ['/articles/2018-12-08', 'Table of Content'],
+      ],
 //      '/': [
         // '',
         // ['/articles/', '文章列表'],
@@ -61,6 +62,7 @@ module.exports = {
         // ['about', '關於我']
 //      ]
     },
+    lastUpdated: 'Last Updated'
   },
   evergreen: true
 }
