@@ -26,7 +26,7 @@ module.exports = {
     logo: '/assets/img/logo.png',
     nav: [
       { text: 'Articles', link: '/articles/' },
-      { text: 'Journal', link: '/journal' },
+//      { text: 'Journal', link: '/journal' },
       { text: 'About', link: '/about' },
 //      {
 //        text: '關於我',
