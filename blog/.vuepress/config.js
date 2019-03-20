@@ -26,7 +26,7 @@ module.exports = {
     logo: '/assets/img/logo.png',
     nav: [
       { text: 'Articles', link: '/articles/' },
-      { text: 'Journal', link: '/journal' },
+//      { text: 'Journal', link: '/journal' },
       { text: 'About', link: '/about' },
 //      {
 //        text: '關於我',
@@ -42,6 +42,10 @@ module.exports = {
       //   ['/journal', '2019'],
       //   ['/journal#_2018', '2018']
       // ],
+
+      '/articles/2019-03-06': [
+        ['/articles/2019-03-06', 'Table of Content'],
+      ],
 
       '/articles/2019-03-05': [
         ['/articles/2019-03-05', 'Table of Content'],
