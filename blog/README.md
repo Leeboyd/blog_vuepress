@@ -10,5 +10,6 @@ features:
   details: Taiwan and Chicago, IL
 - title: Joined
   details: Jan 1, 2019
+Dev: docker exec -it blog sh -c "npm run blog:dev"
 footer: MIT Licensed | Copyright © 2019-present LeeBoy
 ---
