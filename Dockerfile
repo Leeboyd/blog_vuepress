@@ -1,14 +1,14 @@
 FROM node:11-alpine
 
 RUN mkdir -p /home/blog
-WORKDIR /home/blog
-VOLUME /home/blog
 
-RUN npm install -g vuepress@0.14.10
+WORKDIR /home/blog
+
+RUN yarn global add vuepress@0.14.10
 
 COPY . .
 
-RUN npm install
+RUN yarn add -- flat
 
 EXPOSE 9898
 
