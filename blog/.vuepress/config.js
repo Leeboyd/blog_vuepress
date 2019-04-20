@@ -42,6 +42,9 @@ module.exports = {
       //   ['/journal', '2019'],
       //   ['/journal#_2018', '2018']
       // ],
+      '/articles/2019-03-25': [
+        ['/articles/2019-03-25', 'Table of Content'],
+      ],
 
       '/articles/2019-03-21': [
         ['/articles/2019-03-21', 'Table of Content'],
